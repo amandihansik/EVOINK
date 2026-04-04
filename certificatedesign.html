@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Design Gallery | EvoInk</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="logodesign.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+
+    <!-- ===== FIXED BACK BUTTON (Below Navigation) ===== -->
+    <div class="fixed-back-bar">
+        <div class="back-bar-container">
+            <a href="portfolio.html" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                <span>Back to Portfolio</span>
+            </a>
+            
+            <div class="gallery-info">
+                <span class="gallery-title">Certificate Design Gallery</span>
+                <span class="project-count">15 Projects</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== SIMPLIFIED HERO SECTION - ONLY TEXT IN MIDDLE ===== -->
+    <section class="gallery-hero-simple">
+        <div class="hero-simple-container">
+            <h1>Certificate Design <span class="highlight">Showcase</span></h1>
+            <p class="hero-simple-subtitle">At EvoInk Graphics, we create custom certificate designs that reflect the prestige and significance of your achievements. Whether it’s for educational milestones, professional accomplishments, or special recognitions, our designs are crafted with attention to detail and elegance, ensuring each certificate makes a lasting impression.</p>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Scroll to explore designs</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+    <br>>
+
+    <!-- Pure Image Grid -->
+    <div class="logo-grid-container">
+        
+        <!-- Row 1 -->
+        <div class="grid-row">
+            <div class="grid-item">
+                <div class="image-wrapper">
+                    <img src="CERTIFICATE DESIGN PROJECTS/1.jpg" alt="CERTIFICATE 1 Concept">
+                    <div class="image-title">CERTIFICATE 1</div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="image-wrapper">
+                    <img src="CERTIFICATE DESIGN PROJECTS/2.jpg" alt="CERTIFICATE 2 Concept">
+                    <div class="image-title">CERTIFICATE 2</div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="image-wrapper">
+                    <img src="CERTIFICATE DESIGN PROJECTS/3.jpg" alt="CERTIFICATE 3 Concept">
+                    <div class="image-title">CERTIFICATE 3</div>
+                </div>
+            </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="grid-row">
+            <div class="grid-item">
+                <div class="image-wrapper">
+                    <img src="CERTIFICATE DESIGN PROJECTS/4.jpg" alt="CERTIFICATE 4 Concept">
+                    <div class="image-title">CERTIFICATE 4</div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="image-wrapper">
+                    <img src="CERTIFICATE DESIGN PROJECTS/5.jpg" alt="CERTIFICATE 5 Concept">
+                    <div class="image-title">CERTIFICATE 5</div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="image-wrapper">
+                    <img src="CERTIFICATE DESIGN PROJECTS/6.jpg" alt="CERTIFICATE 6 Concept">
+                    <div class="image-title">CERTIFICATE 6</div>
+                </div>
+            </div>
+        </div>
+         <!-- Row 3 -->
+        <div class="grid-row">
+            <div class="grid-item">
+                <div class="image-wrapper">
+                    <img src="CERTIFICATE DESIGN PROJECTS/7.jpg" alt="CERTIFICATE 7 Concept">
+                    <div class="image-title">CERTIFICATE 7</div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="image-wrapper">
+                    <img src="CERTIFICATE DESIGN PROJECTS/8.jpg" alt="CERTIFICATE 8 Concept">
+                    <div class="image-title">CERTIFICATE 8</div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="image-wrapper">
+                    <img src="CERTIFICATE DESIGN PROJECTS/9.jpg" alt="CERTIFICATE 9 Concept">
+                    <div class="image-title">CERTIFICATE 9</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 4 -->
+        <div class="grid-row">
+            <div class="grid-item">
+                <div class="image-wrapper">
+                    <img src="CERTIFICATE DESIGN PROJECTS/10.jpg" alt="CERTIFICATE 10 Concept">
+                    <div class="image-title">CERTIFICATE 10</div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="image-wrapper">
+                    <img src="CERTIFICATE DESIGN PROJECTS/11.jpg" alt="CERTIFICATE 11 Concept">
+                    <div class="image-title">CERTIFICATE 11</div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="image-wrapper">
+                    <img src="CERTIFICATE DESIGN PROJECTS/12.jpg" alt="CERTIFICATE 12 Concept">
+                    <div class="image-title">CERTIFICATE 12</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 5 -->
+        <div class="grid-row">
+            <div class="grid-item">
+                <div class="image-wrapper">
+                    <img src="CERTIFICATE DESIGN PROJECTS/13.jpg" alt="CERTIFICATE 13 Concept">
+                    <div class="image-title">CERTIFICATE 13</div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="image-wrapper">
+                    <img src="CERTIFICATE DESIGN PROJECTS/14.jpg" alt="CERTIFICATE 14 Concept">
+                    <div class="image-title">CERTIFICATE 14</div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="image-wrapper">
+                    <img src="CERTIFICATE DESIGN PROJECTS/15.jpg" alt="CERTIFICATE 15 Concept">
+                    <div class="image-title">CERTIFICATE 15</div>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- JavaScript -->
+    <script>
+
+            
+
+        // Lightbox Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const images = document.querySelectorAll('.image-wrapper img');
+            const lightbox = document.querySelector('.lightbox-modal');
+            const lightboxImg = lightbox.querySelector('img');
+            const lightboxTitle = lightbox.querySelector('.lightbox-title');
+            const closeBtn = lightbox.querySelector('.lightbox-close');
+            const prevBtn = lightbox.querySelector('.lightbox-prev');
+            const nextBtn = lightbox.querySelector('.lightbox-next');
+            
+            let currentIndex = 0;
+            const imageArray = Array.from(images);
+            
+            // Open lightbox on image click
+            images.forEach((img, index) => {
+                img.addEventListener('click', () => {
+                    currentIndex = index;
+                    openLightbox();
+                });
+            });
+            
+            function openLightbox() {
+                const imgSrc = imageArray[currentIndex].src;
+                const imgAlt = imageArray[currentIndex].alt;
+                const title = imageArray[currentIndex].parentElement.querySelector('.image-title').textContent;
+                
+                lightboxImg.src = imgSrc;
+                lightboxImg.alt = imgAlt;
+                lightboxTitle.textContent = title;
+                
+                lightbox.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+            
+            function closeLightbox() {
+                lightbox.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+            
+            function showNextImage() {
+                currentIndex = (currentIndex + 1) % imageArray.length;
+                openLightbox();
+            }
+            
+            function showPrevImage() {
+                currentIndex = (currentIndex - 1 + imageArray.length) % imageArray.length;
+                openLightbox();
+            }
+            
+            // Event listeners
+            closeBtn.addEventListener('click', closeLightbox);
+            nextBtn.addEventListener('click', showNextImage);
+            prevBtn.addEventListener('click', showPrevImage);
+            
+            // Keyboard navigation
+            document.addEventListener('keydown', (e) => {
+                if (!lightbox.classList.contains('active')) return;
+                
+                if (e.key === 'Escape') closeLightbox();
+                if (e.key === 'ArrowRight') showNextImage();
+                if (e.key === 'ArrowLeft') showPrevImage();
+            });
+            
+            // Close on background click
+            lightbox.addEventListener('click', (e) => {
+                if (e.target === lightbox) closeLightbox();
+            });
+            
+            // Swipe for mobile
+            let touchStartX = 0;
+            let touchEndX = 0;
+            
+            lightbox.addEventListener('touchstart', (e) => {
+                touchStartX = e.changedTouches[0].screenX;
+            });
+            
+            lightbox.addEventListener('touchend', (e) => {
+                touchEndX = e.changedTouches[0].screenX;
+                handleSwipe();
+            });
+            
+            function handleSwipe() {
+                const swipeThreshold = 50;
+                const diff = touchStartX - touchEndX;
+                
+                if (Math.abs(diff) > swipeThreshold) {
+                    if (diff > 0) {
+                        showNextImage();
+                    } else {
+                        showPrevImage();
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
